@@ -26,12 +26,11 @@ const sketch = (p5: P5) => {
 			fluid.addDensity(p5.mouseX, p5.mouseY+1,255);
 
 
-
 			fluid.addVelocity(p5.mouseX, p5.mouseY, 10, 10);
 		}
 
 		fluid.step();
-		fluid.renderV();
+		fluid.renderD();
 
 		console.log("success");
 	};
