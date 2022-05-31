@@ -31,8 +31,6 @@ const sketch = (p5: P5) => {
 
 		fluid.step();
 		fluid.renderD();
-
-		console.log("success");
 	};
 };
 
